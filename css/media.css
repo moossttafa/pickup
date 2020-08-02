@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+                    /* lg screen*/
+@media (max-width :1200px)
+{
+    
+}
+
+                 /* md screen*/
+@media (max-width :991px)
+{
+ 
+    
+}
+
+
+                        /* sm screen*/
+@media (max-width :768px){
+    .navbar{
+        background-color: black;
+    }
+    .header .overlay .container .banner .table-cell .handline{
+        font-size: 30px;
+    }
+    .header .overlay .container .banner .table-cell .bio-website{
+        font-size: 12px;
+    }
+    .about-box-text{
+        margin-top: 30px;
+    }
+    .footer .footer-newsletter-form .btn-1{
+        margin: 20px 0px 10px 0px;
+    }
+    
+    
+}
+
+@media (max-width :576px){
+
+    footer{
+        text-align: center;
+       
+    }
+   footer .title{
+
+    margin-top: 23px;
+
+    }
+    footer .title h2::after{
+        left: 155px;
+    }
+     
+   /*ssm*/
+}
+@media (max-width :480px){
+    .header .overlay .container .banner .table-cell .bio-website{
+        font-size: 15px;
+        font-weight: 100;
+
+    }
+    footer .footer-newsletter-form .btn-1{
+        margin-top: 20px;
+    }
+   
+    /*xsm*/
+ }
